@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+.databrickscfg
+
+# Local data and database files
+data/
+datasets/
+raw_data/
+*.csv
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# Python / Spark local artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.sparkStaging/
+metastore_db/
+derby.log/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
